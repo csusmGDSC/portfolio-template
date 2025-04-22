@@ -1,0 +1,31 @@
+#hero {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    @media (width < 48rem) {
+        flex-direction: column-reverse;
+        align-items: start;
+    }
+}
+
+#hero h1 {
+    font-size: 2.5rem;
+    line-height: 1.1;
+}
+
+#hero span {
+    color: var(--primary)
+}
+
+#hero img {
+    min-width: 12rem;
+    min-height: 12rem;
+    width: 12rem;
+    height: 12rem;
+
+    display: flex;
+    align-items: center;
+    border-radius: 999px;
+    overflow: hidden;
+}

@@ -1,0 +1,19 @@
+.education-card {
+    background-color: var(--foreground);
+    padding-inline: 1.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    border-left: 4px solid var(--primary);
+}
+
+.school {
+    color: var(--primary);
+    font-size: 1.1rem;
+}
+
+.graduation {
+    font-size: 0.9rem;
+    color: #aaa;
+}

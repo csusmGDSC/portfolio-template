@@ -1,0 +1,52 @@
+#experience button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: var(--foreground);
+    cursor: pointer;
+    transition: border-color 0.25s;
+}
+
+#experience button:hover {
+    border-color: var(--primary);
+}
+
+#experience button:focus,
+#experience button:focus-visible {
+    outline: 4px auto var(--primary);
+}
+
+.selected {
+    background-color: var(--darker-primary) !important;
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.experience-card {
+    background-color: var(--foreground);
+    padding-inline: 1.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    border-left: 4px solid var(--primary);
+}
+
+.company {
+    color: var(--primary);
+    font-size: 1.1rem;
+}
+
+.info {
+    font-size: 0.9rem;
+    color: #aaa;
+}

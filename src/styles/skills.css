@@ -1,0 +1,17 @@
+#skills>div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+#skills span {
+    display: inline-flex;
+    align-items: center;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 0.875rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    padding-inline: 1.5rem;
+    background-color: var(--foreground);
+}
